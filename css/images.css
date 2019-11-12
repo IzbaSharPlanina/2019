@@ -1,6 +1,6 @@
 /* Images in main tag */
 .main-image {
-    max-width: 50%;
+    max-width: 30%;
     border-radius: 0.5rem;
 }
 
@@ -36,4 +36,11 @@
     display: block;
     content: '*Източник divino.bg';
     margin-bottom: 2rem;
+}
+
+
+@media (max-width: 800px) {
+    .main-image {
+    max-width: 50%;
+}
 }
