@@ -6,11 +6,19 @@ aside {
     text-align: center;
 }
 
+aside h5 {
+    margin-bottom: 0.5rem;
+}
+
 aside li {
     display: block;
     list-style: none outside;
     border: 1px solid #d50;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+aside li:last-child {
+    margin-bottom: 3rem;
 }
 
 aside li a {
