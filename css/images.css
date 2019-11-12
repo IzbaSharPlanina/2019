@@ -1,3 +1,16 @@
+img {
+    opacity: 0.8;
+    border: 2px solid purple;
+    box-shadow: 0 0 0.1rem 0.1rem #d50;
+}
+
+img:hover {
+    opacity: 1;
+    border: 2px solid white;
+    box-shadow: 0 0 0.2rem 0.2rem #d50;
+    
+}
+
 /* Images in main tag */
 .main-image {
     max-width: 30%;
