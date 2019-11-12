@@ -1,0 +1,11 @@
+header {
+    grid-area: hd;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1, header h4 {
+    text-align: center;
+}

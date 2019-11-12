@@ -1,0 +1,13 @@
+.logo {
+    /* grid-area: lg; */ 
+    display: flex;
+    width: 10%;
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.logo > img {
+    width: 100%;
+    height: auto;
+}

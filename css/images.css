@@ -1,0 +1,39 @@
+/* Images in main tag */
+.main-image {
+    max-width: 50%;
+    border-radius: 0.5rem;
+}
+
+.central-image {
+    display: flex;
+    max-width: 50%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.image-left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.image-right {
+    float: right;
+    margin-left: 1rem;
+}
+
+/* Images in aside tag */
+.aside-image {
+    width: 90%;
+    height: auto;
+    margin: 0.5rem auto;
+}
+
+.aside-image:first-child {
+    margin: 0;
+}
+
+.aside-image-one:after {
+    display: block;
+    content: '*Източник divino.bg';
+    margin-bottom: 2rem;
+}

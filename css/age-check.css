@@ -1,0 +1,64 @@
+#header, #navigation, #main, #aside, #footer {
+    display: none;
+}
+
+.check-age {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / span 2;
+    background: #d50;
+    margin: 0;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black
+}
+
+#age-requirement {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+#age-fill-area {
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 2px solid purple;
+}
+
+#age-check-button {
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    opacity: 0.8;
+    border: 2px solid rgb(219, 147, 219);
+    font-size: 1.2em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#age-check-button:hover {
+    opacity: 1;
+    border: 2px solid purple;
+    cursor: not-allowed;
+}
+
+#under-aged {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / span 2;
+    display: none;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    background:  rgb(219, 147, 219);
+}
+
+#under-aged img {
+    max-width: 20%;
+    height: auto;
+}

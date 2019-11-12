@@ -1,0 +1,70 @@
+.nav {
+    grid-area: nav;
+    display: flex;
+}
+
+.nav > ul {
+    display: flex;
+    flex: 100%;
+    /* flex-grow: 1; */
+    justify-content: space-between;
+}
+
+.nav > ul > li {
+    display: block;
+    list-style: none outside;
+    padding: 0.5rem 1rem;
+    
+}
+
+.nav > ul > li a {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    color: #d50;
+    padding: 0.5rem 1rem;
+}
+
+.nav > ul > li a:hover {
+    background: #d50;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+
+.button, .button2 {
+    display: none;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding: 1.5rem;
+    background: purple;
+    border: 2px solid black;
+    border-radius: 50%;;
+}
+
+@media (max-width: 800px) {
+
+    .button {
+        display: flex;
+        max-width: 15%;
+        justify-content: center;
+    }
+
+    .button2 {
+        /* display: none; */
+        max-width: 15%;
+        justify-content: center;
+    }
+
+    .nav > ul {
+        display: none;
+        margin-top: 0;
+        padding: 0.1rem;
+        background: purple;
+        color: #fff;
+    }
+
+    .nav > ul > li {
+        
+        padding: 0.2rem;
+    }
+}

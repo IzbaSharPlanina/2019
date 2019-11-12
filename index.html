@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Изба 'Шар планина' - качествено българско червено вино и бяло вино от сортове мерло, каберне, мелник55, вранец">
+	<meta name="keywords" content="Изба Шар планина, българско червено вино, бяло вино, реколта2019">
+	<meta name="author" content="Антон">
+    <title>Изба "Шар планина"</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Алерт за пълнолетие -->
+    <script>
+        window.alert ("Необходимо е да удостоверите, че сте пълнолетни!");
+    </script>
+
+    <!-- Проверка за пълнолетие -->
+        <script>
+            function myFunc() {
+            let age = document.getElementById("age-fill-area").value;
+                if (age < 18) {
+                    document.getElementById("under-aged").style.display = "block";
+                } else {
+                    document.getElementById("under-aged").style.display="none";
+                    document.getElementById("age-requirement").style.display="none";
+                    document.getElementById("age-check-button").style.display="none";
+                    document.getElementById("age-fill-area").style.display="none";
+                    document.getElementById("header").style.display="block";
+                    document.getElementById("navigation").style.display="block";
+                    document.getElementById("main").style.display="block";
+                    document.getElementById("aside").style.display="block";
+                    document.getElementById("footer").style.display="block";
+                    document.getElementById("check-age").style.display="none";
+                    // document.getElementById("firstimage").style.display="flex";
+                }
+            }
+        </script>
+    <!-- Край на проверката -->
+
+</head>
+<body>
+    <!-- Бланка за попълване на възрастта-->
+        <div class="check-age" id="check-age">
+            <label for="age-fill-area" id="age-requirement">Моля, въведете своята възраст:
+                <input id="age-fill-area" value="">
+                <button id="age-check-button" onclick="myFunc()" title="Не се препоръчва за лица под 18год, освен ако не обичат да пийват вице :-)">Влез</button>
+            </label>
+            <div id="under-aged"><img src="https://cdn.pixabay.com/photo/2018/10/31/15/45/no-drinking-3786138_960_720.png" title="Съдържанието на сайта е неподходящо за лица под 18-годишна възраст"><p>Очевидно нямате необходимата възраст за достъп до съдържанието на нашия сайт...</p><p>Опитайте отново, когато навършите 18!</p></div>
+        </div>
+    <!-- Край на бланката -->
+
+    <div class="logo">
+        <img src="images/logo.jpg" alt="Изба 'Шар планина' - лого">
+    </div>
+
+    <header id="header">
+        <h1>Добре дошли в сайта на изба "Шар планина"</h1>
+        <h4>Благодарим ви, че ни харесвате, наздраве!</h4>
+            <button class="button" id="button" onclick="document.getElementById('nav').style.display='block', document.getElementById('button').style.display='none', document.getElementById('button2').style.display='flex'"><h4 id="check">Меню</h4></button>
+            <button class="button2" id="button2" onclick="document.getElementById('nav').style.display='none', document.getElementById('button').style.display='flex', document.getElementById('button2').style.display='none'"><h4 Id="check2">Затвори</h4></button>
+    </header>
+
+    <div class="nav" id="navigation">
+        <ul id="nav">
+            <li><a href="html/index1.html" target="_blank">Начало</a></li>
+            <li><a href="html/sorts and wines.html" target="_blank">Сортове и вина</a></li>
+            <li><a href="html/blog.html" target="_blank">Блог</a></li>
+            <li><a href="html/form.html" target="_blank">Похвали и препоръки</a></li>
+        </ul>
+    </div>
+
+    <main id="main">
+        <h2>Време е за #реколта2019 на изба <strong>"Шар планина"</strong></h2>
+            <p>Неусетно измина цяла година от момента, когато започнахме да се наслаждаваме на предишната реколта и да отваряме бутилка след бутилка. Броят на пълните бутилки постепенно се стопи до нула и добре че дойде време за новата реколта. А <strong>#реколта2019</strong> на изба "Шар планина" се очертава като не по-слаба от миналогодишната. Ето как протече производството й:</p>
+                <img src="images/grozdober.jpg" alt="Гроздоберът на #реколта2019 на изба 'Шар планина'" title="Групата гроздоберачи на #реколта2019 на изба 'Шар планина'" class="central-image main-image">
+            <p>Простете неглижирания ни външен вид, но гроздоберът е особен процес, който изисква и по-вехтите дрехи от гардероба да влезат в употреба. Оставяме официалното облекло за трапезата</p>
+        <h3>Гроздоберът</h3>
+            <img src="images/brane.jpg" alt="Бране на грозде изба 'Шар планина'" title="Кой е казал, че трябва само да се бере..." class="main-image image-left">   
+            <p>На фона на голямата суша през годината, реколтата от грозде в нашите скромни насаждения от около 1 декар беше напълно задоволителна. Дали заради правилно пръскане и обработка на лозява, или заради осигурените редовни поливки, но количеството грозде през 2019-та беше съизмеримо с това през предходната година. Затова гроздоберът премина с позитивно настроение на берачите и леко като песен. Като детска песен... </p>
+            <p>Защото тази година се радвахме на безценната допълнителна подкрепа на двама големи и един малък гроздоберачи. А те беряха ли, беряха... и не само.</p>
+            <p>Ред по ред, гроздето беше обрано, а това, което не беше изядено, постъпи в чувалите. Предстоеше да поеме по пътя към бидоните.</p>
+        <h3>Обработката и ферментацията</h3>
+            <img src="images/melene.jpg" alt="Как се мели гроздето на изба 'Шар планина'" title="Малкият мелач Боби" class="main-image image-right">
+            <p>Който не е присъствал на гроздобер, само той си мисли, че всичко приключва "на тръстиката". О, не. Предстои не по-леката чест със роненето, смилането и пренасянето на гроздето към избата - в нашия случай зимника, или просто мазето. Добре че и тук имаше кой да помага, при това доста усърдно и с огромен ентусиазъм.</p>
+            <p>Разбира се, бялото и червеното грозде се мелят поотделно, като предварително са изронени само зърната. Смилат се на машина, за да се отдели и сока на зърната, и се прехвърлят в големи съдове, където кашата ферментира.</p>
+            <p>Процесът на ферментация е нещо като чудо, щото сладкият сок постепенно се превръща във вино, а как точно става това и какви са тънкостите, трудно бихме могли да обясним. А и тук си има майсторлък.</p>
+            <p>Цялата ферментация протича бавно, първоначално е бурна, след това постепенно затихва, а за да се получи пивко и бистро вино, е необходим период от поне 1 месец. Ако времето се задържи топло, ферментацията се удължава и до пълно избистряне и придобиване на годен за консумация на виното вид може да се наложи да се изчака и 2 месеца. Търпение трябва, търпение.</p>
+        <h3>Новото попълнение в нашето портфолио</h3>
+            <img src="images/roze.jpg" alt="Розето на изба 'Шар планина'" title="Малкият фишек, редом с големия батко" class="main-image image-left last">
+            <p>През тази година решихме да се пробваме и в производството на розе. Затова #реколта2019 на изба "Шар планина" ще бъде допълнена и с розе. Макар и минимално количество, то заема полагащото му се място и в избата.</p>
+            <p>Производството на розе има много важни особености и, разбира се, своите тънкости. Сокът престоява смо няколко часа в кашата, след което се изчежда и ферментира самостоятелно. Ние заложихме на сорта 'широка мелнишка лоза' като суровина, защото е характерен за района ни и се счита за един от най-подходящите за производство на розе, редом с мавруда.</p>
+            <p>Ако експериментът се окаже успешен, в #реколта2020 ще включим по-голямо количество от светлочервения еликсир, който, изстуден, е прекрасна алтернатива на бирата през лятото.</p>
+            <p><i>*Този сайт е любителски, създаден като работен проект, с който авторът завършва курс за уеб-разработки. Сайтът няма за цел нито да рекламира, нито да дистрибутира напитки, а единствено да представи интересни данни при производството на вино.</i></p>
+    </main>
+
+    <aside id="aside">
+        <div class="aside-links">
+            <h5>Полезни връзки в необятния свят на виното:</h5>
+            <ul>
+                <li><a href="#" target="_blank">Сайт на избите в България:</a></li>
+                <li><a href="#" target="_blank">Съюз на сомелиерите и виноценителите</a></li>
+                <li><a href="#" target="_blank">Каталог на българските вина</a></li>
+            </ul>
+        </div>
+        <div class="aside-pics">
+            <h5>И боговете на метъла се прекланят пред виното:</h5>
+            <a href="https://divino.bg/Judas-Priest-v-Balgariya-za-Midalidare-Rock-in-the-Wine-Valley"  class="aside-image-one" target="_blank"><img src="images/judas.jpg" alt="Judas Priest in Bulgaria" title="Judas Priest отново ще свирят в България" class="aside-image"></a>
+            <h5>Проверете с кой сорт грозде се слави вашият район:</h5>
+            <a href="images/map-large.jpg" target="_blank"><img src="images/map-large.jpg" alt="Карта на сортовете грозде в България" title="Карта на сортовете грозде в българските райони"  class="aside-image"></a>
+        </div>
+    </aside>
+
+    <footer id="footer">
+        Created by <a href="#"> Anton</a>&copy;2019 <span>All rights reserved</span>
+    </footer>
+</body>
+</html>

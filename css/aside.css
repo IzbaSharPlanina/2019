@@ -1,0 +1,39 @@
+aside {
+    grid-area: sd;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+aside li {
+    display: block;
+    list-style: none outside;
+    border: 1px solid #d50;
+    margin-bottom: 0.5rem;
+}
+
+aside li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #d50;
+}
+
+aside li a:hover{
+    background: #d50;
+    color: #fff;
+}
+
+aside .aside-pics, aside .aside-pics a {
+    width: 100%;
+    margin: 2rem auto;
+}
+
+
+@media (max-width: 800px) {
+
+    aside {
+        padding: 2rem;
+    }
+}
