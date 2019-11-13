@@ -57,8 +57,9 @@
     <header id="header">
         <h1>Добре дошли в сайта на изба "Шар планина"</h1>
         <h4>Благодарим ви, че ни харесвате, наздраве!</h4>
-            <button class="button" id="button" onclick="document.getElementById('nav').style.display='block', document.getElementById('button').style.display='none', document.getElementById('button2').style.display='flex'"><h4 id="check">Меню</h4></button>
-            <button class="button2" id="button2" onclick="document.getElementById('nav').style.display='none', document.getElementById('button').style.display='flex', document.getElementById('button2').style.display='none'"><h4 Id="check2">Затвори</h4></button>
+	    <blockquote id="quoteDisplay" onload="randomQuotes()"></blockquote>
+           	 <button class="button" id="button" onclick="document.getElementById('nav').style.display='block', document.getElementById('button').style.display='none', document.getElementById('button2').style.display='flex'"><h4 id="check">Меню</h4></button>
+           	 <button class="button2" id="button2" onclick="document.getElementById('nav').style.display='none', document.getElementById('button').style.display='flex', document.getElementById('button2').style.display='none'"><h4 Id="check2">Затвори</h4></button>
     </header>
 
     <div class="nav" id="navigation">
@@ -98,9 +99,9 @@
         <div class="aside-links">
             <h5>Полезни връзки в необятния свят на виното:</h5>
             <ul>
-                <li><a href="#" target="_blank">Сайт на избите в България:</a></li>
-                <li><a href="#" target="_blank">Съюз на сомелиерите и виноценителите</a></li>
-                <li><a href="#" target="_blank">Каталог на българските вина</a></li>
+                <li><a href="https://www.divino.bg/vino/izbi" target="_blank">Сайт на избите в България:</a></li>
+                <li><a href="http://www.bgsommelier.com/index.php?ekod=bg&menu=2" target="_blank">Съюз на сомелиерите и виноценителите</a></li>
+                <li><a href="http://kata.bg/index.php/bg/katalog-vuvedenie/statii/6900-vinoproizvodstvoto-v-bulgaria" target="_blank">Каталог на българските вина</a></li>
             </ul>
         </div>
         <div class="aside-pics">
@@ -114,5 +115,35 @@
     <footer id="footer">
         Created by <a href="#"> Anton</a>&copy;2019 <span>All rights reserved</span>
     </footer>
+	
+	<script>
+        	(function randomQuotes() {
+        	    var quotes = [
+        	    '<p>Бирата е направена от човека. Виното от Бог</p><p>Мартин Лутер</p>',
+        	    '<p>Винаги готвя с вино. Понякога го слагам в храната</p><p>Уилям Фийлдс</p>',
+        	    '<p>Дайте ми още вино или ме оставете на мира</p><p>Руми</p>',
+        	    '<p>Възрастта е просто число. Напълно незначителна е, освен, разбира се, ако не си бутилка вино</p><p>Джоан Колинс</p>',
+        	    '<p>Във виното е истината</p><p>Латински израз</p>',
+        	    '<p>Пеницилинът лекува, но виното прави хората щастливи</p><p>Александър Флеминг</p>',
+        	    '<p>Виното развеселява тъжния, подмладява стария и вдъхновява младите</p><p>Лорд Байрон</p>',
+        	    '<p>Обичам всичко старо – старите приятели, старите времена, старите маниери, старите книги, старите вина</p><p>Оливър Голдсмит</p>',
+        	    '<p>Аз съм като старо вино. Към мен не посягат много често, но съм добре запазена</p><p>Роуз Кенеди - майка на президента Джон Кенеди</p>',
+        	    '<p>Пийте вино, а не етикети</p><p>Д-р Мейнард Америн</p>',
+        	    '<p>Животът е твърде кратък, за да пием евтино вино</p><p>Клиф Хаким</p>',
+        	    '<p>Виното е ключалката, през която надничаш в сърцето</p><p>Алкей</p>',
+        	    '<p>Виното е като превъплъщението - едновременно е и човек, и Бог</p><p>Пол Тилич</p>',
+        	    '<p>Хората са като виното – някои се превръщат в оцет, а други се подобряват с възрастта</p><p>Папа Йоан XXIII</p>',
+        	    '<p>Устните му пият вода, но сърцето му пие вино</p><p>E. Къмингс</p>',
+        	    '<p>Обичам, когато седя на масата, да виждам отблясъка на бутилка интелигентно вино</p><p>Пабло Неруда</p>',
+        	    '<p>Никой доблестен човек не мрази хубавото вино</p><p>Рабле</p>',
+        	    '<p>Ако имаш вино днес, напий се днес, а за утрешните грижи мисли утре</p><p>Китайска пословица</p>',
+        	    '<p>Имам толкова много работа...Вместо това мисля да си налея чаша вино</p><p>Неизвестен, но очевидно съобразителен автор</p>',
+        	    '<p>Как се отнася интелигентният човек към бутилка вино? - отваря я и я оставя да подиша. Ако му се струва, че тя не диша, веднага й прилага дишане уста в уста</p><p>Импровизация</p>',
+        	    '<p>Дайте на един човек бутилка вино и той цял ден ще пие сам. Научете един човек да прави вино и той цял живот ще е заобиколен от добри приятели</p><p>Древна поговорка в средите на винопроизводителите</p>'
+        	    ];
+        	    var randomNumber = Math.floor(Math.random() * quotes.length);
+        	    document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+        	})();
+   	</script>
 </body>
 </html>
