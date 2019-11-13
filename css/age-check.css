@@ -45,6 +45,7 @@
     opacity: 1;
     border: 2px solid purple;
 /*     cursor: not-allowed; */
+    cursor: pointer;
 }
 
 #under-aged {
