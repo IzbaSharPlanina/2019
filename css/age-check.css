@@ -44,7 +44,7 @@
 #age-check-button:hover {
     opacity: 1;
     border: 2px solid purple;
-    cursor: not-allowed;
+/*     cursor: not-allowed; */
 }
 
 #under-aged {
