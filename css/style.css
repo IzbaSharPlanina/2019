@@ -8,3 +8,28 @@
 @import url('aside.css');
 @import url('footer.css');
 
+blockquote {
+    font-style: italic;
+	margin-top: 1rem;
+    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+    opacity: 0.8;
+    border: 2px dotted purple;
+    border-radius: 30%;
+	/* clear: both; */
+	/* margin: 3rem auto; */
+}
+
+blockquote p:last-child {
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 0;
+    margin-right: 1.5rem;
+    margin-top: 0;
+}
+
+blockquote p:last-child:before {
+    display: inline;
+    content: '\2014';
+    padding-right: 1rem;
+}
