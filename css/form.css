@@ -24,12 +24,17 @@ header h2, header h3 {
     margin: 0.5rem;
 }
 
+form {
+padding: 0.5rem;
+}
+
 .nav {
     grid-area: nav;
 }
 
 main {
     grid-area: mn;
+	background: #fff;
 }
 
 footer {
