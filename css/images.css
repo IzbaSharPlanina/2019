@@ -38,23 +38,21 @@ img:hover {
 .aside-image {
     width: 90%;
     height: auto;
-    margin: 0.5rem auto 3rem auto;
-}
-
-.aside-image:first-child {
-    margin: 0;
 }
 
 .aside-image-one:after {
     display: block;
     content: '*Източник divino.bg';
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .aside-image-two:after {
     display: block;
     content: '*Източник maxim.com';
-    margin-bottom: 2rem;
+}
+
+.song {
+	margin-bottom: 2rem;
 }
 
 
