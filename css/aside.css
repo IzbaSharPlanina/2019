@@ -1,13 +1,10 @@
 aside {
     grid-area: sd;
+    background: white;
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    padding: 1rem;
     text-align: center;
-}
-
-aside h5 {
-    margin-bottom: 1rem;
 }
 
 aside li {
@@ -18,7 +15,7 @@ aside li {
 }
 
 aside li:last-child {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 aside li a {
@@ -33,9 +30,21 @@ aside li a:hover{
     color: #fff;
 }
 
-aside .aside-pics, aside .aside-pics a {
+aside h4 {
+    margin-bottom: 0.5rem;
+    height: auto;
+}
+
+.aside-pics img {
     width: 100%;
-    margin: 2rem auto;
+    height: auto;
+}
+
+/* В gallery-red.html линковете към видеата за гроздето са в aside-links, затова са тези настройки  */
+.aside-links img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
 }
 
 

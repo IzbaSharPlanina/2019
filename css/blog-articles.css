@@ -1,0 +1,97 @@
+@import url('images.css');
+@import url('basic.css');
+@import url('logo.css');
+@import url('header.css');
+@import url('navigation.css');
+@import url('main.css');
+@import url('aside.css');
+@import url('footer.css');
+@import url('style.css');
+
+
+
+body {
+    grid-template-areas:
+    'hd'
+    'mn'
+    'ft'
+    ;
+}
+
+.nav, main > h3, main > p, aside {
+    display: none;
+}
+
+body > main {
+    pointer-events: none;
+}
+
+.back {
+    display: flex;
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    border: none;
+    box-shadow: none;
+}
+
+.back:hover {
+    border: none;
+    box-shadow: none;
+}
+
+.blog {
+    font-family: Indie Flower;
+    font-size: 2em;
+    text-align: center;
+    padding: 0.75rem;
+    margin: 0.75rem;
+}
+
+article header {
+    position: relative;
+    overflow: hidden;
+    margin-top: 3rem;
+}
+
+article header:before {
+    padding-top: 40%;
+    content: '';
+    display: block;
+    
+}
+
+article header img {
+    width: 90%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    border: none;  
+    box-shadow: none;
+}
+
+article header img:hover {
+    border: none;
+    box-shadow: none;
+}
+
+h1, h2, h3, p {
+    margin: 1rem auto;
+}
+
+article> main {
+    padding: 1.5rem;
+}
+
+.november-image:after {
+padding-top: 2rem;
+content: 'Източник на снимката: unsplash.com';
+display:block;
+}
+

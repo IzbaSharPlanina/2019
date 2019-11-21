@@ -1,0 +1,359 @@
+@import url('style.css');
+
+body {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.85fr;
+    /* grid-template-rows: 1fr 0.5fr 5fr 1fr; */
+    grid-template-areas:
+    'hd hd hd hd hd '
+    'nav nav nav nav nav'
+    'mn mn mn mn sd'
+    'ga ga ga ga sd'
+    'ft ft ft ft ft';
+    grid-gap: 1rem;
+}
+
+main:after {
+    display: none;
+}
+
+.gallery {
+    grid-area: ga;
+    display: grid;
+    grid-template-areas:
+    'h3 h3 h3 h3'
+    's1 s1 s2 s2'
+    's5 s5 s6 s6'
+    's3 s3 s4 s4'
+    'lp lp lp lp';
+    grid-gap: 1rem;
+    padding: 1rem 0;
+    background: #fff;
+}
+
+.gallery-white {
+    grid-area: ga;
+    display: grid;
+    grid-template-areas:
+    'h3 h3 h3 h3'
+    's1 s1 s2 s2'
+    'lp lp lp lp';
+    grid-gap: 1rem;
+    padding: 1rem 0;
+    background: #fff;
+}
+
+
+.gallery h3 {
+    grid-area: h3;
+    text-align: center;
+    color: purple;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery-white h3 {
+    grid-area: h3;
+    text-align: center;
+    color: rgb(191, 230, 19);;
+}
+
+/* gallery-white - white-wine properties */
+.first-section-white {
+    grid-area: s1;
+    width: 80%;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.first-section-white:before {
+    display: block;
+    content: 'Керацуда';
+    padding: 1rem;
+    background: rgb(203, 231, 78);
+    text-align: center;
+}
+
+.first-section-white:after {
+    display: block;
+    content: ' Керацудата е почти ендемитен сорт бяло грозде - гордост за ценителите на бялото вино в югозапада';
+    padding: 1rem;
+    background: rgb(203, 231, 78);
+    text-align: center;
+}
+
+.second-section-white {
+    grid-area: s2;
+    width: 80%;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.second-section-white:before {
+    display: block;
+    content: ' #реколта2020';
+    padding: 1rem;
+    background: rgb(203, 231, 78);
+    text-align: center;
+}
+
+.second-section-white:after {
+    display: block;
+    content: 'С какво ще разширим белия си асортимент - предстои да разберем...';
+    padding: 1rem;
+    background: rgb(203, 231, 78);
+    text-align: center;
+}
+
+.first-section-white img, .second-section-white img {
+    width: 100%;
+    height: 73%;
+}
+/* END */
+
+/* gallery-red - red wine properties */
+.first-section {
+    grid-area: s1;
+    width: 80%;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.first-section:before {
+    display: block;
+    content: 'Мерло';
+    padding: 1rem;
+    background: rgb(243, 135, 184);
+    text-align: center;
+}
+
+.first-section:after {
+    display: block;
+    content: 'През последните години залагаме основно на мерлото - глобалната класика';
+    padding: 1rem;
+    background: rgb(243, 135, 184);
+    text-align: center;
+}
+
+.second-section {
+    grid-area: s2;
+    width: 80%;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin: 0 auto;
+}
+
+.second-section:before {
+    display: block;
+    content: 'Сира';
+    padding: 1rem;
+    background: rgb(243, 135, 184);
+    text-align: center;
+}
+
+.second-section:after {
+    display: block;
+    content: 'От 2 години близо 10% от състава на купажното ни червено вино се пада на сирата';
+    padding: 1rem;
+    background: rgb(243, 135, 184);
+    text-align: center;
+}
+
+.third-section {
+    grid-area: s3;
+    width: 80%;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.third-section:before {
+    display: block;
+    content: 'Сензо';
+    padding: 1rem;
+    background: rgb(175, 21, 90);
+    text-align: center;
+}
+
+.third-section:after {
+    display: block;
+    content: 'Сензо е едновременно винен и десертен сорт, чиито качества тепърва ще разгръщаме';
+    padding: 1rem;
+    background: rgb(175, 21, 90);
+    text-align: center;
+}
+
+.fourth-section {
+    grid-area: s4;
+    width: 80%;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.fourth-section:before {
+    display: block;
+    content: 'Вранец';
+    padding: 1rem;
+    background: rgb(175, 21, 90);
+    text-align: center;
+}
+
+.fourth-section:after {
+    display: block;
+    content: 'В реколта 2019 ще включим и този интересен македонски сорт червено грозде';
+    padding: 1rem;
+    background: rgb(175, 21, 90);
+    text-align: center;
+}
+
+.fifth-section {
+    grid-area: s5;
+    width: 80%;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.fifth-section:before {
+    display: block;
+    content: 'Мелник55';
+    padding: 1rem;
+    background: rgb(218, 71, 144);
+    text-align: center;
+}
+
+.fifth-section:after {
+    display: block;
+    content: 'Българска класика, която съперничи на най-изтънчените световни сортове червено винено грозде';
+    padding: 1rem;
+    background: rgb(218, 71, 144);
+    text-align: center;
+}
+
+.sixth-section {
+    grid-area: s6;
+    width: 80%;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.sixth-section:before {
+    display: block;
+    content: 'Широка мелнишка лоза';
+    padding: 1rem;
+    background: rgb(218, 71, 144);
+    text-align: center;
+}
+
+.sixth-section:after {
+    display: block;
+    content: '...kойто не е опитвал, само той не знае';
+    padding: 1rem;
+    background: rgb(218, 71, 144);
+    text-align: center;
+}
+
+.first-section img, .second-section img, .third-section img, .fourth-section img, .fifth-section img {
+    width: 100%;
+    height: auto;
+}
+
+.sixth-section img {
+   width: 100%;
+   height: 65%;
+}
+/* END */
+
+.last-p {
+    grid-area: lp;
+    padding: 0.5rem 1rem;
+}
+
+
+@media (max-width: 900px) {
+
+    body {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* grid-template-rows: 1fr 0.5fr 5fr 1fr; */
+        grid-template-areas:
+        'hd hd hd hd'
+        'nav nav nav nav'
+        'mn mn mn mn'
+        'ga ga ga ga'
+        /* 's1 s1 s2 s2'
+        's5 s5 s6 s6'
+        's3 s3 s4 s4'
+        'lp lp lp lp' */
+        'sd sd sd sd'
+        'ft ft ft ft';
+        grid-gap: 0.5rem;
+    }
+    .first-section, .second-section, .third-section, .fourth-section, .fifth-section, .sixth-section {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr 0.5fr 5fr 1fr; */
+        grid-template-areas:
+        'hd' 
+        'nav'
+        'mn'
+        'ga'
+        /* 's1'
+        's2'
+        's5'
+        's6'
+        's3'
+        's4'
+        'lp' */
+        'sd'
+        'ft';
+        grid-gap: 0.5rem;
+    }
+
+    .gallery {
+        grid-area: ga;
+        display: grid;
+        grid-template-areas:
+        'h3'
+        's1'
+        's2'
+        's3'
+        's4'
+        's5'
+        's6'
+        'lp';
+        grid-gap: 0.5rem;
+        padding: 1rem 0;
+        background: #fff;
+    }
+
+    .gallery-white {
+        grid-area: ga;
+        display: grid;
+        grid-template-areas:
+        'h3'
+        's1'
+        's2'
+        'lp';
+        grid-gap: 0.5rem;
+        padding: 1rem 0;
+        background: #fff;
+    }
+}

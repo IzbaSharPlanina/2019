@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Форма за контакти</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<div class="logo">
+    <a href="home.html"><img src="../images/logo.jpg" alt="Изба 'Шар планина' - лого"></a>
+</div>
+<body>
+    <header>
+        <h2>Добре дошли в сайта на изба "Шар планина"</h2>
+        <h3>Вашето мнение е важно за нас</h3>
+           	 <button class="button" id="button" onclick="document.getElementById('nav').style.display='block', document.getElementById('button').style.display='none', document.getElementById('button2').style.display='flex'"><h4 id="check">MENU</h4></button>
+           	 <button class="button2" id="button2" onclick="document.getElementById('nav').style.display='none', document.getElementById('button').style.display='flex', document.getElementById('button2').style.display='none'"><h4 Id="check2">CLOSE</h4></button>
+    </header>
+
+    <div class="nav">
+        <ul id="nav">
+            <li><a href="home.html">Начало</a></li>
+            <li><a href="sorts and wines.html">Сортове и вина</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="form.html" class="active">Похвали и препоръки</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <form action="" method="">
+            <fieldset>
+                <legend>Формуляр за оставяне на мнения и препоръки</legend>
+                <h4>Тук всеки, който е опитал нашето вино, може да остави своето мнение (похвала, препоръка...), с което, разбира се, ще се съобразим.</h4>
+                <section>
+                    <label for="user">Въведете своето име:</label>
+                    <input type="text" id="user">
+                </section>
+                <section>
+                    <textarea name="area" id="area" cols="30" rows="10" placeholder="Оставете мнението си тук..."></textarea>
+                </section>
+                <section>
+                    <select name="sel">
+                        <option value="zero">Оценка</option>
+                        <option value="first">2</option>
+                        <option value="second">3</option>
+                        <option value="third">4</option>
+                        <option value="fourth">5</option>
+                        <option value="fifth">6</option>
+                    </select>
+                </section>
+                <section>
+                    <input type="submit" value="Публикувай" class="input-button">
+                    <input type="reset" value="Изтрий" class="input-button">
+                </section>
+            </fieldset>
+        </form>
+		<h4>Архив на споделените до момента мнения:</h4>
+		<div>
+		<p>1...</p>
+		<p>2...</p>
+		<p>3...</p>
+		</div>
+    </main>
+
+    <footer>
+        Created by <a href="#"> Anton</a>&copy;2019 <span>All rights reserved</span>
+    </footer>
+
+</body>
+</html>

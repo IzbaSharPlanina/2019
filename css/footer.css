@@ -1,22 +1,26 @@
 footer {
+    /* display: flex;
+    flex-direction: column; */
     grid-area: ft;
-    /* display: flex; */
+    background: white;
+    padding: 1rem;
 }
 
 footer a {
     color: #d50;
+    text-decoration: none;
 }
 
 @media (max-width: 800px) {
 
-    footer:before {
+    /* footer:before {
         display: block;
         content: '';
-        margin: 0.5rem auto;
-        padding: 0.05rem;
+        margin: 0 auto;
+        padding: 0;
         background: #000;
         width: 100%;
         height: 1px;
         border: 1px solid #d50;
-    }
+    } */
 }

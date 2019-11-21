@@ -48,6 +48,12 @@ img:hover {
 .aside-image-one:after {
     display: block;
     content: '*Източник divino.bg';
+    margin-bottom: 5rem;
+}
+
+.aside-image-two:after {
+    display: block;
+    content: '*Източник maxim.com';
     margin-bottom: 2rem;
 }
 

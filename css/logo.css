@@ -5,13 +5,19 @@
     position: fixed;
     top: 0.5rem;
     left: 0.5rem;
+    z-index: 10;
 }
 
 .logo img {
     width: 100%;
     height: auto;
     border-radius: 20%;
-    border: none;
+    border: 1px solid #fff;
     box-shadow: none;
     opacity: 1;
+}
+
+.logo img:hover {
+	 border: 1px solid purple;
+    box-shadow: 1px 0px 6px 3px rgba(199,114,10,1);
 }

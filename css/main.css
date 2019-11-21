@@ -1,6 +1,13 @@
 main {
     grid-area: mn;
-    padding: 0.5rem;
+    background: white;
+    padding: 1rem;
+}
+
+
+main h4 {
+    text-align: center;
+    margin: 1rem auto 1rem auto;
 }
 
 main h3 {
@@ -20,9 +27,9 @@ main h3:after {
     border: 1px solid #d50;
 }
 
-main p:last-child {
+/* main p:last-child {
     margin-top: 2rem;
-}
+} */
 
 main:after {
     clear: both;

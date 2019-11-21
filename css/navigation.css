@@ -1,4 +1,7 @@
 .nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
     grid-area: nav;
     display: flex;
 }
@@ -13,7 +16,7 @@
 .nav > ul > li {
     display: block;
     list-style: none outside;
-    padding: 0.5rem 1rem;
+    /* padding: 0.5rem 1rem; */
     
 }
 
@@ -23,12 +26,12 @@
     background: #fff;
     color: #d50;
     padding: 1rem 1.5rem;
+    border-radius: 0.3rem;
 }
 
 .nav > ul > li a:hover {
     background: #d50;
     color: #fff;
-    border-radius: 0.3rem;
 }
 
 .button, .button2 {
@@ -40,6 +43,18 @@
     border: 2px solid black;
     border-radius: 50%;;
 }
+
+/* За активните менюта в навигацията да светят в друг цвят */
+.nav > ul > li a.active {
+    background: #d50;
+    color: #fff;
+}
+
+.nav > ul > li a.active:hover {
+    background: #fff;
+    color:  #d50;
+}
+/* Край */
 
 @media (max-width: 800px) {
 
