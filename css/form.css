@@ -2,10 +2,10 @@
 @import url('header.css');
 @import url('navigation.css');
 @import url('footer.css');
+@import url('basic.css');
 
 
 body {
-max-width: 90%;
 margin: 0 auto;
 padding: 1rem;
 display: grid;
@@ -25,16 +25,19 @@ header h2, header h3 {
 }
 
 form {
-padding: 0.5rem;
+    padding: 0.3rem;
 }
 
+fieldset {
+    padding: 0.5rem;
+}
 .nav {
     grid-area: nav;
 }
 
 main {
     grid-area: mn;
-	background: #fff;
+    background: #fff;
 }
 
 footer {
