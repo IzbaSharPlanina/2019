@@ -42,7 +42,7 @@ margin-bottom: 0.3rem;
 @media (max-width: 800px) {
 
     body {
-        max-width: 90%;
+        max-width: 98%;
         grid-template-areas:
         'hd hd hd hd'
         'nav nav nav nav'
