@@ -41,6 +41,11 @@ margin-bottom: 0.3rem;
 
 @media (max-width: 800px) {
 
+html {
+padding: 0;
+margin: 0;
+}
+
     body {
         max-width: 98%;
         grid-template-areas:
@@ -50,5 +55,6 @@ margin-bottom: 0.3rem;
         'sd sd sd sd'
         'ft ft ft ft';
         grid-gap: 0.5rem;
+        padding: 0;
     }
 }
