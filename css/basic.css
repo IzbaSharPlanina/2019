@@ -54,7 +54,7 @@ margin: 0;
         'mn mn mn mn'
         'sd sd sd sd'
         'ft ft ft ft';
-        grid-gap: 0.5rem;
+        grid-gap: 1rem;
         padding: 0;
     }
 }
