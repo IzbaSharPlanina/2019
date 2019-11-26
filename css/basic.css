@@ -41,7 +41,7 @@ p {
 @media (max-width: 800px) {
 
     body {
-        width: 95%;
+        width: 88%;
         grid-template-areas:
         'hd hd hd hd'
         'nav nav nav nav'
