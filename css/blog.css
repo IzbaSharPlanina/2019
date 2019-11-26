@@ -41,27 +41,37 @@ main p {
 }
 
 aside {
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 0;
 }
 
-aside ul, aside li, aside a {
+.aside-archive {
+	padding: 0;
+}
+
+ aside a {
     width: 100%;
-    margin: 0 auto;
+    /* margin: 1rem auto; */
     padding: 0;
     border: none;
     box-shadow: none;
 }
 
-aside li:last-child {
+/* aside li:last-child { */
+    /* margin: 0; */
+/* } */
+
+aside img {
+    width: 100%;
+    height: auto;
     margin: 0;
+	padding: 0;
+    border: none;
+    box-shadow: none;
 }
 
-aside .aside-archive a img {
-    width: 100%;
-    height: 40vh;
-    margin: 0;
-    border: none;
+aside img:hover {
+	border: none;
     box-shadow: none;
 }
 

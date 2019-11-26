@@ -14,9 +14,9 @@ aside li {
     margin-bottom: 1.5rem;
 }
 
-aside li:last-child {
-    margin-bottom: 5rem;
-}
+/* aside li:last-child { */
+    /* margin-bottom: 5rem; */
+/* } */
 
 aside li a {
     display: block;
@@ -32,12 +32,16 @@ aside li a:hover{
 
 aside h4 {
     margin-bottom: 0.5rem;
-    height: auto;
+    /* height: auto; */
 }
 
 .aside-pics img {
     width: 100%;
     height: auto;
+}
+
+.aside-pics h4 {
+	margin-top: 2rem;
 }
 
 /* В gallery-red.html линковете към видеата за гроздето са в aside-links, затова са тези настройки  */

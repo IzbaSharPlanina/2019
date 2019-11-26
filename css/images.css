@@ -38,6 +38,11 @@ img:hover {
 .aside-image {
     width: 90%;
     height: auto;
+    margin: 0.5rem auto 3rem auto;
+}
+
+.aside-image:first-child {
+    margin: 0;
 }
 
 .aside-image-one:after {
@@ -51,17 +56,13 @@ img:hover {
     content: '*Източник maxim.com';
 }
 
-.song {
-	margin-bottom: 2rem;
-}
+/* .aside-pics .song { */
+	/* margin-bottom: 2rem; */
+/* } */
 
 
 @media (max-width: 800px) {
     .main-image {
     max-width: 50%;
-}
-
-.central-image {
-max-width:75%;
 }
 }

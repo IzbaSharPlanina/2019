@@ -1,10 +1,10 @@
 .logo {
     /* grid-area: lg; */ 
     display: flex;
-    width: 10%;
+    width: 15%;
     position: fixed;
-    top: 0.5rem;
-    left: 0.5rem;
+    top: 0;
+    left: 0;
     z-index: 10;
 }
 
@@ -21,3 +21,19 @@
 	 border: 1px solid purple;
     box-shadow: 1px 0px 6px 3px rgba(199,114,10,1);
 }
+
+
+/* @media (max-width: 800px) {
+
+    .logo {
+        width: 15%;
+    }
+} */
+
+    @media screen and (min-device-width: 1600px) and (max-device-width: 3000px) { 
+      
+        .logo img {
+            width: 12vh;
+        }
+    }
+

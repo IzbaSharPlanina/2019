@@ -20,6 +20,7 @@ grid-gap: 1rem;
 background: #d65;
 }
 
+
 header h2, header h3 {
     margin: 0.5rem;
 }
@@ -31,6 +32,7 @@ form {
 fieldset {
     padding: 0.5rem;
 }
+
 .nav {
     grid-area: nav;
 }
@@ -38,6 +40,7 @@ fieldset {
 main {
     grid-area: mn;
     background: #fff;
+	
 }
 
 footer {
@@ -80,9 +83,30 @@ main > div {
 	margin: 0 auto;
 }
 
+ @media screen and (min-device-width: 1600px) and (max-device-width: 3000px) { 
+ 
+	
+	legend {
+		font-size: 1.6rem;
+}
 
-/* 
-textarea {
-    width: 80%;
-} */
+	form {
+		padding: 1rem;
+	}
 
+	fieldset {
+		padding: 2rem;
+	}
+	
+	label, textarea, .input-button{
+		font-size: 1.4rem;
+	}
+	
+	select {
+		font-size: 1.2rem;
+		width: 20%;
+		padding: 0.5rem;
+	}
+
+	
+ }
